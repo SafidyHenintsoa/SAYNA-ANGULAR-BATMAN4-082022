@@ -1,1 +1,63 @@
-/* You can add global styles to this file, and also import other style files */
+@import'style/color';
+@import'style/font';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    font-family: 'Rajdhani';
+    font-size: 36px;
+    font-weight: 400;
+}
+
+button {
+    font-family: 'Rajdhani';
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Space Grotesk';
+    font-size: 12px;
+    font-weight: bold;
+    font-weight: 400;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
+    border-left: 4px solid $gris-border;
+    border-right: 4px solid $gris-border;
+}
+
+body {
+    background-color: black !important;
+    color: white !important;
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    font-weight: 400;
+    .fontImg{
+        background-image: url(../src/assets/Illustrations/Bathome1.png)!important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        background-position: top center !important;
+    }
+}
+
+.scrolEtIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 25%;
+    right: 0%;
+    transform: translate(-48%);
+    gap: 20px;
+    z-index: 10;
+    .logohover:hover {
+        filter: brightness(0) saturate(100%) invert(84%) sepia(89%) saturate(6624%) hue-rotate(357deg) brightness(108%) contrast(102%);
+    }
+}

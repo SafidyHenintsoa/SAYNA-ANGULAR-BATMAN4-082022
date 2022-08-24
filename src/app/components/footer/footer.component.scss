@@ -1,0 +1,23 @@
+.presentation {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 0.7rem;
+    text-align: center;
+    p{
+        margin-bottom: 0 !important;
+    }
+}
+
+footer {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5% auto;
+    a {
+        text-decoration: none;
+    }
+}

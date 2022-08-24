@@ -1,0 +1,35 @@
+main {
+    section {
+        .chevalierNoir {
+            h1 {
+                text-align: center;
+                padding-top: 10%;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+            div {
+                padding: 60px 120px 60px 120px;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+.contenant {
+    min-height: 800px;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    h1 {
+        padding-left: 10%;
+        font-size: 4rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    a {
+        margin: 0 auto
+    }
+        
+}

@@ -1,0 +1,64 @@
+main {
+    .container {
+        .titreMultimedia {
+            padding-left: 60px;
+            h1 {
+                color: #fff;
+            }
+        }
+        .multimedia {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 60px;
+            .carte {
+                width: 600px;
+                border-top-right-radius: 15px;
+                border-bottom-right-radius: 15px;
+                display: flex;
+                flex-direction: row;
+                color: #fff;
+                background: linear-gradient(123deg, rgb(237, 222, 191) 2%, rgba(39, 68, 85, 0.685) 100%);
+                .textCarte {
+                    h1 {
+                        font-size: 18px;
+                        font-weight: 300;
+                        margin: 15px;
+                        color: #fff;
+                    }
+                    h2 {
+                        font-size: 15px;
+                        font-weight: 300;
+                        margin: 15px;
+                        color: #fff;
+                    }
+                    h3 {
+                        font-size: 15px;
+                        font-weight: 300;
+                        margin-top: 0;
+                        margin-right: 0;
+                        margin-left: 15px;
+                        span {
+                            color: #FFFF00;
+                        }
+                    }
+                    p {
+                        font-size: 12px;
+                        margin-top: 0;
+                        margin-right: 0;
+                        margin-left: 15px;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .centrerimg {
+            padding: 60px;
+            position: relative;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

@@ -1,0 +1,95 @@
+    .newsletter {
+        background: linear-gradient(to top left, #0f2027, #203a43, #2c5364);
+        width: 100%;
+        color: white;
+        div {
+            margin: 0 auto;
+            width: 60%;
+            form {
+                h1 {
+                    text-align: center;
+                    padding: 3.125rem;
+                }
+                .label1 {
+                    font-size: 1.25rem;
+                }
+                #mail,
+                select {
+                    width: 100%;
+                    padding-top: 0.625rem;
+                    margin-top: 0.75;
+                    margin-right: 0;
+                    margin-left: 0;
+                    outline: none;
+                    border: none;
+                    background-color: transparent;
+                    border-bottom: 1px solid #C4C4C4;
+                    color: white;
+                    font-size: 1rem;
+                    option {
+                        color: black;
+                    }
+                }
+                h3 {
+                    font-weight: 400;
+                    margin-top: 0.75rem;
+                    margin-right: 0;
+                    margin-left: 0;
+                    margin-bottom: 0.75rem;
+                }
+                .label2 {
+                    display: inline-block;
+                    width: 65%;
+                    margin-top: 1.875rem;
+                    margin-right: 0;
+                    margin-left: 0;
+                    font-weight: 400;
+                    color: #C4C4C4;
+                }
+                p {
+                    margin-top: 0.75rem;
+                    border-bottom: 1px solid #c4c4c4;
+                    color: #C4C4C4;
+                }
+                .btn-groupe {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    margin-top: 1rem;
+                    button {
+                        width: 10rem;
+                        height: 2.4rem;
+                        border-image: linear-gradient(160deg, hsl(0deg, 0%, 60%), hsl(198deg, 80%, 28%)) 1;
+                        background-color: transparent;
+                        color: white;
+                        outline: none;
+                        margin: 0.4rem;
+                    }
+                }
+                textarea {
+                    padding-top: 0.4rem;
+                    width: 100%;
+                    height: 1.25rem;
+                    border: none;
+                    border-bottom: 1px solid white;
+                    background-color: transparent;
+                    outline: none;
+                    color: #f1f1f1;
+                }
+                .bloc-confirmer {
+                    margin-top: 1rem;
+                    padding: 3.125rem;
+                    text-align: center;
+                    button {
+                        background: linear-gradient(to right, hsl(40deg, 40%, 84%), hsl(356deg, 60%, 40%));
+                        width: 12.5rem;
+                        padding: 1.25rem;
+                        text-align: center;
+                        color: white;
+                        border: none;
+                        outline: none;
+                    }
+                }
+            }
+        }
+    }

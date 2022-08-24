@@ -1,0 +1,14 @@
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 25%;
+    right: 0%;
+    transform: translate(-48%);
+    gap: 20px;
+    z-index: 10;
+    .logohover:hover {
+        filter: brightness(0) saturate(100%) invert(84%) sepia(89%) saturate(6624%) hue-rotate(357deg) brightness(108%) contrast(102%);
+    }
+}

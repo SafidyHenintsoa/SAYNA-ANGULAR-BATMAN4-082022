@@ -1,0 +1,37 @@
+@import'../../../style/color';
+@import'../../../style/font';
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px;
+    border-bottom: 4px solid $gris-border;
+    .logohover:hover {
+        filter: brightness(0) saturate(100%) invert(84%) sepia(89%) saturate(6624%) hue-rotate(357deg) brightness(108%) contrast(102%);
+    }
+    ul {
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 50%;
+        li {
+            a {
+                color: rgb(255, 255, 255);
+                font-size: 25px;
+                font-weight: 500;
+                font-family: 'Rajdhani';
+                text-decoration: none;
+            }
+            a:hover {
+                color: $yellow-color;
+                font-weight: bold;
+            }
+            .active {
+                text-decoration: underline;
+                font-weight: bolder;
+                color: white;
+            }
+        }
+    }
+}
