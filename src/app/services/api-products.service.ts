@@ -22,4 +22,14 @@ export class ApiProductsService {
       })
     );
   }
+
+  getImageFontById(id: number) {
+    return this.http
+      .get<any>('http://localhost:3000/imageBackground/' + id)
+      .pipe(
+        map((res: any) => {
+          return res;
+        })
+      );
+  }
 }
