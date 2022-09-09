@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ApiProductsService } from 'src/app/services/api-products.service';
+import { CarteService } from 'src/app/services/carte.service';
 
 @Component({
   selector: 'app-home',
@@ -7,8 +7,13 @@ import { ApiProductsService } from 'src/app/services/api-products.service';
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
-  backgroundUrl: any;
-  constructor() {}
+  carts: any;
 
-  ngOnInit(): void {}
+  constructor(private api: CarteService) {}
+
+  ngOnInit(): void {
+    this.api.getCartes().subscribe((res) => {
+      this.carts = res;
+    });
+  }
 }
